@@ -1,18 +1,23 @@
+/*
+ * File: 2-print_alphabet.c
+ * Auth: Brennan D Baraban
+ */
+
 #include <stdio.h>
 
 /**
- * main - Prints a random number and states whether
- *        it is positive, negative, or zero.
+ * main - Prints the alphabet in lowercase.
  *
  * Return: Always 0.
-*/
-int main(void) 
+ */
+int main(void)
 {
-    char i;
-    for (i = 'a'; i < 'z'; ++i) {
-        putchar(i);
-    }
-    putchar('\n');
+	char letter;
 
-    return (0);
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+
+	putchar('\n');
+
+	return (0);
 }
