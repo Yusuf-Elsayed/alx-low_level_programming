@@ -1,8 +1,3 @@
-/*
- * File: 5-print_numbers.c
- * Author: Yusuf Elsayed
- * /
-
 #include <stdio.h>
 
 /**
