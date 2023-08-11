@@ -4,13 +4,13 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/*description: evalute each +ve or -ve or zero*/
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/*description: evalute each +ve or -ve or zero*/ 
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n == 0)
