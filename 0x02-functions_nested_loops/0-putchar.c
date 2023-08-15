@@ -1,5 +1,3 @@
-#include <stdlib.h>
-
 /**
  * main - Entry point of the program.
  *
@@ -10,8 +8,13 @@
  *
  * Return: Always 0 to indicate successful completion of the program.
  */
-int main(void)
+
+int main()
 {
-	printf("%s\n", "_putchar");
-	return (0);
+	char a[] = "_putchar\n";
+	for(int i = 0; i < 9; i++)
+	{
+		_putchar(a[i]);
+	}
+	return 0;
 }
