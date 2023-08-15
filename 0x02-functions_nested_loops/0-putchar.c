@@ -1,21 +1,20 @@
-/**
- * main - Entry point of the program.
- *
- * This function demonstrates the usage of a custom '_putchar' function by
- * printing a string using the 'printf' function. The '_putchar' function is
- * expected to be defined elsewhere in the code and should handle printing
- * individual characters.
- *
- * Return: Always 0 to indicate successful completion of the program.
- */
+#include "main.h"
 
+/**
+ * main -  prints _putchar, followed by a new line
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char a[] = "_putchar\n";
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-	for (int i = 0; i < 9; i++)
-	{
-		_putchar(a[i]);
-	}
 	return (0);
 }
